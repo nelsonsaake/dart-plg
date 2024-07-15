@@ -4,7 +4,7 @@ ARGS = $(filter-out $@,$(MAKECMDGOALS))
 
 run:
 	cls
-	cd iso/bin && dart run iso.dart $(ARGS)
+	dart run lib/robust_ports_example/main.dart $(ARGS)
 
 ncommit:
 	cls
