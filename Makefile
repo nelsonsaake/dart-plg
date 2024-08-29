@@ -4,7 +4,7 @@ ARGS = $(filter-out $@,$(MAKECMDGOALS))
 
 run:
 	cls
-	dart run lib/robust_ports_example/main.dart $(ARGS)
+	dart run lib/query/main.dart $(ARGS)
 
 ncommit:
 	cls
